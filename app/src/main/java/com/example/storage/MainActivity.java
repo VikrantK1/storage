@@ -51,6 +51,10 @@ public class MainActivity extends AppCompatActivity {
         data.append("List prefrence: "+listPref);
         textView.setText(data.toString());
     }
-
+  public void json_file(View v)
+  {
+      Intent intent =new Intent(MainActivity.this,jsonfile.class);
+      startActivity(intent);
+  }
 
 }
